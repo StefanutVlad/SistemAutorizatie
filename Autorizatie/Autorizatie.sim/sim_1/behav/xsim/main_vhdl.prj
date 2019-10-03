@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Autorizatie.srcs/sources_1/new/debounce.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/deplasare.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/detectare_risingedge.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/display_7segmente.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/numarator.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/salvare_parola.vhd" \
+"../../../../Autorizatie.srcs/sources_1/new/main.vhd" \
+
+# Do not sort compile order
+nosort
